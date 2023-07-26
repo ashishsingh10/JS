@@ -1,0 +1,19 @@
+// JSON data in one line
+{"name": "ashish", "agae" : 27}
+
+//JSON data in indent style
+{
+    "name": "ashish", 
+    "agae": 27,
+    "is_student": true,
+    "passport_no": null,
+    "p_lang": ["c", "javascript", "java"],
+    "address": {
+        "city": "noida",
+        "state": "uttar pradesh",
+        "pincode" : 201312
+    }
+
+}
+// type of data in JSON on line of 6 to 11 is: strimg, number, boolean, null, array, object
+

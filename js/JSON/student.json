@@ -1,0 +1,19 @@
+{
+    "student": [
+        {
+            "name": "ashish",
+            "age": 27,
+            "city": "noida"
+        },
+        {
+            "name": "max",
+            "age": 25,
+            "city": "new delhi"
+        },
+        {
+            "name": "ajeet",
+            "age": 22,
+            "city": "mumbai"
+        }
+    ]
+}
