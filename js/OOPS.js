@@ -320,6 +320,4 @@ Object.assign(admin.prototype, usefullMethod);
 Object.assign(admin.prototype, usefullMethod2);
 
 let admin1 = new admin();
-console.log(admin1)
-
-
+console.log(admin1);
