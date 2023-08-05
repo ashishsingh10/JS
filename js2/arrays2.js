@@ -41,8 +41,18 @@ console.log(countries[0]);
 
 let middleArr = Math.floor(countries.length / 2);
 console.log(middleArr);
-console.log(countries[5]);
+console.log(countries[middleArr]);
 
 let lastCountry = countries.length -1;
 console.log(countries[lastCountry]);
 
+//Slice out the first 3 countriers from the array
+
+let sliceFirst = countries.slice(0- 3);
+console.log(sliceFirst);
+
+let sliceLast = countries.slice(countries.length - 3);
+console.log(sliceLast);
+
+let sliceMiddle = countries.slice(middleArr, middleArr + 1);
+console.log(sliceMiddle);
