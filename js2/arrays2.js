@@ -56,3 +56,22 @@ console.log(sliceLast);
 
 let sliceMiddle = countries.slice(middleArr, middleArr + 1);
 console.log(sliceMiddle);
+
+//Write a function halve that copies the first half of an array. With an odd number of array elements, the middle element should belong to the first half.
+function halve(arr){
+    let length = Math.floor((arr.length) / 2);
+    let x = arr.slice(0, length);
+  
+    let length2 = Math.round((arr.length) / 2)
+  
+    if (length < length2){
+      let y = arr.slice(0, length2);
+      console.log(length2);
+  
+      return y;
+    }
+    return x;
+   
+  };
+  
+  console.log(halve(['a', 'b', 'c', 'd', 5]));
