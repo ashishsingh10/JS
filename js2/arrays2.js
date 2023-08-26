@@ -57,7 +57,8 @@ console.log(sliceLast);
 let sliceMiddle = countries.slice(middleArr, middleArr + 1);
 console.log(sliceMiddle);
 
-//Write a function halve that copies the first half of an array. With an odd number of array elements, the middle element should belong to the first half.
+/* Write a function halve that copies the first half of an array. 
+With an odd number of array elements, the middle element should belong to the first half. */
 function halve(arr){
     let length = Math.floor((arr.length) / 2);
     let x = arr.slice(0, length);
@@ -75,3 +76,24 @@ function halve(arr){
   };
   
   console.log(halve(['a', 'b', 'c', 'd', 5]));
+
+
+/* Write a function list that takes an array of words and returns a string by concatenating the words in the array, separated by commas and - the last word - by an 'and'. 
+An empty array should return an empty string.
+Example: list(['Huey', 'Dewey', 'Louie']) should return 'Huey, Dewey and Louie'. */
+
+function list(arr){
+  let a = arr.slice(0, arr.length - 1);
+  let last = arr[arr.length - 1]
+
+  let y = a.join(', ');
+  if(arr.length === 0){
+    return "";
+  }
+  if(arr.length ===1){
+  return arr[0]
+  }
+  return y + ' and ' + last;
+}
+console.log(list(['Huey', 'Dewey', 'Louie']));
+
